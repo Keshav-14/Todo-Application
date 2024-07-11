@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    color: green;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.add-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.listHeading {
+    /* design the heading */
+}
+
+.taskWrapper {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.taskWrapper li {
+    list-style-type: none;
+}
+
+.tasks {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+input-for-lable::checked + .lableTag{
+    font-weight: bold;
+}
